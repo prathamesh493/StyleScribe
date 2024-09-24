@@ -1,0 +1,11 @@
+# config.py
+
+MODEL_NAME = "gpt2"
+OUTPUT_DIR = "models/"
+NEW_DATA_DIR = "data/new/"
+OLD_DATA_DIR = "data/old/"
+NUM_TRAIN_EPOCHS = 15
+BATCH_SIZE = 4
+MAX_LENGTH = 512
+LOGGING_STEPS = 100
+SAVE_STEPS = 10000
